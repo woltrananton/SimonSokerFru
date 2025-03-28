@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="script.js"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Psoppins%26display=swap" rel="stylesheet">
+        <title>Simon Söker Fru</title>
+        <link rel="icon" type="image/x-icon" href="bilder/IMG20220309172623_Bokeh.jpg">
+    </head>
+    <body onload="load()">
+        <nav>
+            <div class="logo">
+                <h4>Simon Söker Fru</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hem">HEM</a></li>
+                <li><a href="#omsimon">OM SIMON</a></li>
+                <li><a href="tävling/index.html">TÄVLING</a></li>
+                <li><a href="#">FQA</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="image-grid">
+			<img id="hem" class="image-grid-row-2 image-grid-col-2" src="bilder/IMG20220309175848_Bokeh.jpg" alt="Lobäcken">
+			<img class="image-grid-row-2" src="bilder/IMG20230608202753.jpg" alt="Gädda">
+			<img src="bilder/IMG20230520212642.jpg" alt="Noel">
+			<img class="image-grid-row-2" src="bilder/Snapchat-1828356425.jpg" alt="Messmortjarn">
+			<img class="image-grid-row-2" src="bilder/Snapchat-1900802456.jpg" alt="Noel 2">
+			<img src="bilder/Snapchat-1511288685.jpg" alt="Abborre">
+		</div>
+        <div class="image-grid2">
+            <img id="omsimon" class="valkomen" src="bilder/Välkomen.jpg" alt="">  
+        </div>
+        <div  class="image-grid">
+            <img  class="image-grid-row-2 image-grid-col-2" width="25%" src="bilder/IMG20220820205448_Bokeh.jpg" alt="">
+            <img class="image-grid-row-2" width="25%" src="bilder/IMG20230520212642.jpg" alt="">
+            <div class="text">
+                <h1>JA SOM NI SER DETTA ÄR EN PERSON SOM ÄLSKAR UTSIKTER, DETTA ÄR NÅGOT SOM HAN VERKLIGEN UPPSKATTAR</h1>
+            </div>
+            <img src="bilder/IMG20220309173102_Bokeh.jpg">
+            <h1 class="text">SIMON UPPSKATTAR VERKLIGEN NATUREN!</h1>
+            <img id="nakenfis" src="bilder/IMG20220309175848_Bokeh.jpg">
+            <button onclick="naken(event)" class="btnimg">ÖVERASKNING
+                
+            </button>
+            <img src="bilder/Snapchat-1915074935.jpg" alt="">
+            <img src="bilder/IMG20230623215409.jpg" alt="">
+            <h1 class="text">VÅRAN SIMON ÄR BRA PÅ MYCKET MEN FRISÖR ÄR NÅGOT HAN ICKE BORDE BLI. NÅGOT SOM ÄR BRA ATT VETA ÄR ATT HAN ÄR VÄLDIGT STOLT ÖVER SINA FAS-VINGAR</h1>
+            <img src="bilder/IMG20230805161057.jpg" alt="">
+            <img src="bilder/IMG20230430150355.jpg" alt="">
+            <h1 class="text">HÄR ÄR SIMON TAGGAD PÅ ATT ÄTA</h1>
+            <img src="bilder/IMG20230430154808.jpg" alt="">
+            <img src="bilder/IMG_20230430_155941_01.jpg" alt="">
+            <img src="bilder/IMG20220628193723_Bokeh.jpg" alt="">
+            <h1 class="text">MEN SOM DU SER ÄR HAN INTE SÅ STOR I MATEN, DETTA GÖR ATT HAN ÄR BILLIG I DRIFT</h1>
+            <h1 class="text">EFTER MATEN BEHÖVER VÅR VÄN UTRÄTTA SINA BEHOV, DETTA KAN TA UPP TILL EN TIMMA</h1>
+            <img src="bilder/IMG20230520224807.jpg" alt="">
+            <img src="bilder/IMG20230805194345.jpg" alt="">
+            <img src="bilder/IMG20230805194351.jpg" alt="">
+            <h1 class="text">SIMON ÄR PERSONEN SOM ALLTID OFFRAR SIG FÖR SINA VÄNNER, HAN HAR BLANDANNAT RÄDDAT DEN STORE OCH MANNLIGE JAKOB OCH OFFRAT SIG NÄR INGEN VILL RO BÅTEN</h1>
+            <img src="bilder/Snapchat-19042110.jpg" alt="">
+            <h1 class="text">ETT AV VÅR VÄNS INTRESSE ÄR FISKE DETTA ÄR NÅGOT SOM HAN SPENDERR MYCKET TID OCH PENGR PÅ</h1>
+            <img src="bilder/IMG20220601180557_Bokeh.jpg" alt="">
+            <img src="bilder/rn_image_picker_lib_temp_85145b31-221b-42b4-83dd-fb940879aff6.jpg" alt="">
+            <img src="bilder/IMG20220727164751_Bokeh.jpg" alt="">
+            <h1 class="text">DET HÄR ÄR EN AV SIMONS LYCKLIGASTE DAG, DENNA BJÄSSE VÄGDE 4610G DET KANSKE INTE ÄR SÅ MYCKET FÖR VÄRDEN EN MEN FÖR VÅR VÄN ÄR DEN GULD VÄRD</h1>
+            <img src="bilder/IMG20220727164819_Bokeh.jpg" alt="">
+            <img src="bilder/IMG20230328154936.jpg" alt="">
+            <img src="bilder/IMG20230328155059.jpg" alt="">
+            <h1 class="text">IBLAND SÅ IDENTIFIERAR SIG SIMON SOM EN MASK, DETTA GÖR INTE HONOM MINDRE VÄRD BARA LITE MER UNIK</h1>
+            <video width="500px" height="500px" id="mask" controls="controls" src="bilder/Snapchat-864410594.mp4"></video>
+            <img src="bilder/IMG20220416153042.jpg" alt="">
+            <img src="bilder/IMG20230511203243.jpg" alt="">
+            <h1 class="text">VÅR VÄN HAR ETT STORT OCH ALVARLIGT SNUS BEROENDE DETTA GÖR DET LITE PROBLEMATISKT NÄR HAN INTE FÅR I SIG NÅGOT NIKOTIN</h1>
+            <img src="bilder/Snapchat-1828356425.jpg" alt="">
+            <img src="bilder/Snapchat-1204201069.jpg" alt="">
+            <h1 class="text">PERSONEN TILL VÄNSTER ÄR OCKSÅ TILLGÄNLIG, INTRESSANT? HÖR AV DIG TILL @rex_phillips</h1>
+            <img src="bilder/Snapchat-1351003330.jpg" alt="">
+            <img src="bilder/Snapchat-766090074.jpg" alt="">
+            <img src="bilder/Snapchat-555402280.jpg" alt="">
+            <h1 class="text">JA SOM DU KANSKE SER SÅ ÄR SIMON EN RIKTIG PARTYPRINGLA, MEN HAN KAN SPÅRA UR IBLAND...</h1>
+            <div>
+            <video width="500px" height="500px" controls="controls">
+                <source src="bilder/Strippan Simon – Gjord med Clipchamp.mp4" type="video/mp4" />
+            </video>
+            <h1 class="text">DENNA SES PÅ EGEN RISK!</h1>
+            </div>
+         
+            <h1 id="tavling2" class="text ">DET HÄR ÄR DIN LYCKODAG, OM DU ÄR MED OCH TÄVLAR KAN DU VINNA EN HELDAG MED VÅRAN SIMON LARSSON!</h1>
+        </div>
+    </body>
+</html>
